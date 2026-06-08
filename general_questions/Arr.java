@@ -1,4 +1,7 @@
-public class Arr {
+package general_questions;
+
+
+public class Arr{
     public static void main(String[] args){
         // int x[] = new int[]{1,2,3,4};
         // int x[] = new int [5];
@@ -12,7 +15,7 @@ public class Arr {
             //     System.out.println(a);
             // }
             int x[] = new int[]{10,20,30,40,50};
-            for(int i = x.length - 1; i >= 0; i--){
+            for(int i =0; i <= x.length-1; i++){
                 System.out.print(x[i] + " ");
             }
 

@@ -1,14 +1,15 @@
-public class count_spaces {
-    public static void main(String[] args) {
+package general_questions;
 
-        String s1 = "wow is Nishant ";
+public class count_spaces{
+    public static void main(String[] args){
+        String s1= "  Nishant is a good ";
         int count = 0;
-        char arr[] = s1.toCharArray();
-        for(char c: arr){
+        char arr[]= s1.toCharArray();
+        for(char c:arr){
             if(c == ' '){
                 count++;
             }
         }
-        System.out.print("Count spaces"+count);
+        System.out.print("Count of the spaces is :"+ count);
     }
 }

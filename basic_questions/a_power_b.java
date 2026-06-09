@@ -1,3 +1,5 @@
+package basic_questions;
+
 import java.util.Scanner;
 
 

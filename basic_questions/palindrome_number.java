@@ -1,6 +1,5 @@
+package basic_questions;
 import java.util.Scanner;
-
-
 public class palindrome_number {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
@@ -19,6 +18,7 @@ public class palindrome_number {
         else{
             System.out.print("The number is not palindrome ");
         }
+        sc.close();
 
     }
 }

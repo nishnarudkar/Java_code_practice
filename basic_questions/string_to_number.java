@@ -1,7 +1,5 @@
+package basic_questions;
 import java.util.Scanner;
-
-
-
 public class string_to_number {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);

@@ -1,3 +1,6 @@
+package basic_questions;
+
+
 import java.util.Scanner;
 
 public class square_cube_number{

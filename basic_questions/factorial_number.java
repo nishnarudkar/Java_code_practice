@@ -1,3 +1,6 @@
+package basic_questions;
+
+
 import java.util.Scanner;
 
 public class factorial_number {
@@ -10,5 +13,6 @@ public class factorial_number {
             result*=i;
         }
         System.out.print(result);
+        sc.close();
     }
 }

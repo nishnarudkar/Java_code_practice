@@ -1,8 +1,20 @@
+package basic_questions;
+
+
+import java.util.Scanner;
+
+
 public class largest_three_no{
     public static void main(String[] args){
-        int a = 10; 
-        int b = 15;
-        int c = 20;
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the number a : ");
+        int a = sc.nextInt();
+
+        System.out.print("Enter the number b");
+        int b = sc.nextInt();
+
+        System.out.print("Enter the number c");
+        int c = sc.nextInt();
 
         if(a>b && a>c){
             System.out.print(a +" is larger than "+ b + " and "+ c);
@@ -13,5 +25,6 @@ public class largest_three_no{
         else{
             System.out.print(c+ " is larger than "+ a + " and "+ b);
         }
+        sc.close();
     }
 }
